@@ -1,9 +1,13 @@
+body {
+	text-align: center;
+}
+
 .menu {
 	padding: 0px;
 	margin: 0px;
 	list-style-type: none;
 	display: inline-block;
-	font-size: 0; 	
+	font-size: 0;
 }
 
 .menu:after {
@@ -17,15 +21,6 @@
 	position: relative;
 }
 
-.menu-second {
-	display: none;
-	position: absolute;
-}
-
-.menu-second > .menu-inner-second {
-	list-style-type: none;
-}
-
 .menu > .menu-inner > .menu-link,
 .menu-second > .menu-inner-second > .menu-link-second {
 	background: #E62117;
@@ -36,11 +31,38 @@
 	font-size: 25px;
 	font-family:"Time New Romans";
 	display: block;
+	width: 200px;
+	text-align: center;
+	box-shadow: 0 0 50px 0.3px #000000;
+	text-shadow: 0 0 10px #fff; 
 }
 
 .menu > .menu-inner > .menu-link:hover {
 	background: #000000;
 	color: red;
+}
+
+.menu-second {
+	display: none;
+	position: absolute;
+	padding: 0px;
+}
+
+.menu-second > .menu-inner-second {
+	list-style-type: none;
+}
+.menu > .menu-inner > #rounding_left {
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px; 
+}
+.menu > .menu-inner > #rounding_right {
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+.menu-second > .menu-inner-second > #rounding_bottom {
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
 }
 
 .menu-second > .menu-inner-second > .menu-link-second:hover {
