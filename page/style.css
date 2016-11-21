@@ -5,7 +5,7 @@ html, body {
 }
 
 .wrapper {
-	min-height: 100%;
+	min-height: calc(100vh-100px);
 	background-image: url(http://ohrana.ru/images/bg_header.png)
 }
 
@@ -21,7 +21,7 @@ html, body {
 .sidebar {
 	background: #E2DEEE;
 	float: left;
-	width: 260px;
+	width: 259px;
 	border: 1px solid grey;
 	opacity: 0.95; 
 }
@@ -80,7 +80,6 @@ html, body {
 
 .footer {
 	clear: both;
-	margin-top: -100px;
 	height: 100px;
 	background: #E7E4DF;
 }
