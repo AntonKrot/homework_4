@@ -20,13 +20,43 @@ html, body {
 .sidebar {
 	background: #E2DEEE;
 	float: left;
-	width: 300px;
-	border: 1px solid grey;
+	width: 260px;
+	border: 1px solid grey; 
+}
+
+.wrapper > .sidebar > .menu {
+	padding: 5px 20px;
+	text-align: center;
+}
+
+.wrapper > .sidebar > .menu > .menu_list {
+	list-style-type: none;
+}
+
+.wrapper > .sidebar > .menu > .menu_list > .menu_link {
+	text-decoration: none;
+	font-size: 18px;
+	color: #000000;
+	padding: 5px;
+	background: #5D5F5E;
+	display: block;
+	width: 200px;
+	box-shadow: 0 0 5px 0.3px #000000;
+}
+
+.wrapper > .sidebar > .menu > .menu_list > .menu_link:hover {
+	text-decoration: none;
+	font-size: 18px;
+	color: #000000;
+	padding: 5px;
+	background: grey;
+	display: block;
+	transition: linear .3s;
 }
 
 .content {
 	background: #FAF9F7;
-	margin-left: 300px;
+	margin-left: 260px;
 	padding-bottom: 150px;
 	border: 1px solid grey;
 }
@@ -54,7 +84,7 @@ html, body {
 }
 
 .wraper:after {
-		content: '';
-		display: block;
-		clear: both;
+	content: '';
+	display: block;
+	clear: both;
 }
