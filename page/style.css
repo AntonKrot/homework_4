@@ -12,16 +12,18 @@ html, body {
 
 .header {
 	background: #E7E4DF;
-	height: 100px;
+	height: 90px;
 	text-align: center;
 	padding: 5px;
+	opacity: 0.85;
 }
 
 .sidebar {
 	background: #E2DEEE;
 	float: left;
 	width: 260px;
-	border: 1px solid grey; 
+	border: 1px solid grey;
+	opacity: 0.95; 
 }
 
 .wrapper > .sidebar > .menu {
