@@ -1,5 +1,6 @@
 body {
 	text-align: center;
+	font-family: "Segoe UI",sans-serif;
 }
 
 .menu {
@@ -24,7 +25,7 @@ body {
 .menu > .menu-inner > .menu-link,
 .menu-second > .menu-inner-second > .menu-link-second {
 	background: #E62117;
-	color: #FFFFFF;
+	color: #000;
 	text-decoration: none;
 	padding: 10px 5px;
 	border: 1px solid black;
@@ -40,6 +41,7 @@ body {
 .menu > .menu-inner > .menu-link:hover {
 	background: #000000;
 	color: red;
+	transition: linear .3s;
 }
 
 .menu-second {
@@ -68,6 +70,7 @@ body {
 .menu-second > .menu-inner-second > .menu-link-second:hover {
 	background: #000000;
 	color: red;
+	transition: linear .3s;
 }
 
 .menu-inner:hover .menu-second {

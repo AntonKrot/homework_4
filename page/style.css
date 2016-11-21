@@ -1,0 +1,60 @@
+html, body {
+	height: 100%;
+	margin: 0px;
+	font-family: "Trebuchet MS",sans-serif;
+}
+
+.wrapper {
+	min-height: 100%;
+	background-image: url(http://ohrana.ru/images/bg_header.png)
+}
+
+
+.header {
+	background: #E7E4DF;
+	height: 100px;
+	text-align: center;
+	padding: 5px;
+}
+
+.sidebar {
+	background: #E2DEEE;
+	float: left;
+	width: 300px;
+	border: 1px solid grey;
+}
+
+.content {
+	background: #FAF9F7;
+	margin-left: 300px;
+	padding-bottom: 150px;
+	border: 1px solid grey;
+}
+
+.content > h2 {
+	font-size: 18px;
+	text-align: center;
+}
+
+.content > h3 {
+	font-size: 14px;
+	text-align: center;
+}
+
+.content > .text {
+	padding: 20px;
+	text-indent: 10px;
+} 
+
+.footer {
+	clear: both;
+	margin-top: -100px;
+	height: 100px;
+	background: #E7E4DF;
+}
+
+.wraper:after {
+		content: '';
+		display: block;
+		clear: both;
+}
